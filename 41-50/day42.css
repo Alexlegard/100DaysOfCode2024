@@ -1,0 +1,28 @@
+/* Today I added some iteractive images for my Laravel project to my
+website alexlegard.ca. Take a look and see! */
+
+.gallery {
+    display:flex;
+    justify-content: center;
+  }
+  
+  .gallery-image {
+    width:250px;
+    height:250px;
+    margin-right:25px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  .gallery-image-rect {
+    width:250px;
+    height:200px;
+    margin-right:25px;
+    transition: transform 0.3s, border 0.3s;
+  }
+  
+  .gallery-image:hover,
+  .gallery-image-rect:hover {
+    transform: scale(1.5);
+    border: 5px solid #FF0000;
+  }
+  
