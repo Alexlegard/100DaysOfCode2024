@@ -220,6 +220,21 @@ board16.setBoard([
     ["", "", "", "", "", "", "K", ""]
 ]);
 
+// Black is stalemated, and black has some extra pieces
+// that cant move
+const board17 = new ChessboardClass();
+board17.setActiveColor("b");
+board17.setBoard([
+    ["n", "", "", "", "", "", "", "k"],
+    ["", "", "p", "", "", "Q", "", ""],
+    ["", "p", "P", "", "", "", "", ""],
+    ["", "P", "", "", "", "", "", ""],
+    ["", "", "", "", "", "", "", ""],
+    ["", "", "", "", "", "", "", ""],
+    ["", "", "", "", "", "", "", ""],
+    ["", "", "", "", "", "", "K", ""]
+]);
+
 
 
 test('Scholars mate is checkmate', () => {
